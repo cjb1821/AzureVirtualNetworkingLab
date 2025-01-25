@@ -21,13 +21,44 @@
 <h2>Lab walk-through:</h2>
 
 <p align="left">
+
+Created an address space for the virtual network through the portal <br>
 <img src="https://imgur.com/vJwUKWC.png" height="80%" width="80%" alt=""/>
+<br />
+<br />
+<br />
+Created two separate subnets within the address space that are designated for their own purposes <br>
 <img src="https://imgur.com/EXZdAoN.png" height="80%" width="80%" alt=""/>
+<br />
+<br />
+<br />
+The manufacturing VNet and their subnets
 <img src="https://imgur.com/mqg90xU.png" height="80%" width="80%" alt=""/>
+<br />
+<br />
+<br />
 <img src="https://imgur.com/TkcWQN6.png" height="80%" width="80%" alt=""/>
+<br />
+<br />
+<br />
 <img src="https://imgur.com/GMKA9vu.png" height="80%" width="80%" alt=""/>
+<br />
+<br />
+<br />
 <img src="https://imgur.com/4CVZhSP.png" height="80%" width="80%" alt=""/>
+<br />
+<br />
+<br />
 <img src="https://imgur.com/5Q9dOEa.png" height="80%" width="80%" alt=""/>
+<br />
+<br />
+<br />
 <img src="https://imgur.com/NHeU5v8.png" height="80%" width="80%" alt=""/>
+<br />
+<br />
+<br />
 <img src="https://imgur.com/v5wOgaS.png" height="80%" width="80%" alt=""/>
+<br />
+<br />
+<br />
 <img src="https://imgur.com/MTzKcXS.png" height="80%" width="80%" alt=""/>
