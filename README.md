@@ -47,21 +47,28 @@ An NSG was created to be associated with the CoreServices VNet and its VMs
 <br />
 <br />
 <br />
-An inbound rule within the NSG was created 
+An inbound rule was created within the NSG to allow ASG traffic to flow through it. The Application Security Group (ASG) was created behind the scenes. The Application Security Group was created to have the capability to reuse security policies with scale compared to hardcoding IP addresses in the NSG rules.  
+<br />
 <img src="https://imgur.com/4CVZhSP.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
 <br />
+This outbound rule prevents any traffic from the virtual network and its VMs to go outbound toward the internet. 
 <img src="https://imgur.com/5Q9dOEa.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
 <br />
+Created a public DNS Zone to resolve hostnames in my public domain. 
 <img src="https://imgur.com/NHeU5v8.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
 <br />
+Created an A record behind the scenes for my public domain. This picture proves the hostname contosocbressler resolves to the IP address 10.1.1.4 I provided.
+<br />
 <img src="https://imgur.com/v5wOgaS.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
+<br />
+Created a private DNS Zone for name resolution services within my virtual networks. I created an A record as well.
 <br />
 <img src="https://imgur.com/MTzKcXS.png" height="80%" width="80%" alt=""/>
