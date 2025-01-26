@@ -22,7 +22,7 @@
 
 <p align="left">
 
-Created an address space for the virtual network through the portal <br>
+Created an address space for the CoreServices virtual network through the portal <br>
 <img src="https://imgur.com/vJwUKWC.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
@@ -32,19 +32,22 @@ Created two separate subnets within the address space that are designated for th
 <br />
 <br />
 <br />
-The manufacturing VNet and their subnets
+Created the Manufacturing Virtual Network through an ARM Template
 <img src="https://imgur.com/mqg90xU.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
 <br />
+The subnets for the Manufacturing VNet were also created through an ARM Template
 <img src="https://imgur.com/TkcWQN6.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
 <br />
+An NSG was created to be associated with the CoreServices VNet and its VMs
 <img src="https://imgur.com/GMKA9vu.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
 <br />
+An inbound rule within the NSG was created 
 <img src="https://imgur.com/4CVZhSP.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
